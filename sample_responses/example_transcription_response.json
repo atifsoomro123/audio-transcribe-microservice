@@ -1,0 +1,29 @@
+{
+  "request_id": "123e4567-e89b-12d3-a456-426614174000",
+  "duration_sec": 12.3,
+  "sample_rate": 16000,
+  "pipeline": {
+    "separation": {
+      "enabled": true,
+      "method": "demucs"
+    },
+    "transcription": {
+      "model": "small"
+    }
+  },
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 3.1,
+      "text": "hello world"
+    }
+  ],
+  "text": "hello world",
+  "language": "en",
+  "timings_ms": {
+    "load": 420,
+    "separation": 1800,
+    "transcription": 4100,
+    "total": 6400
+  }
+}
